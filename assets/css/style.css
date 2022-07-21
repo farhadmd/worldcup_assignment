@@ -55,7 +55,7 @@
     font-size: 20px;
     line-height: 23px;
     font-weight: 400;
-    background-color: #e74c3c;
+    background-color: #f4511e;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,12 +63,16 @@
     gap: 10px;
     width: fit-content;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.banner_content a:hover{
+    opacity: 0.8;
 }
 /* Header banner end*/
 
 /* Blog Section start*/
 
-.blog_section{
+.blog_section {
     display: flex;
     gap: 30px;
     padding: 100px 0;
@@ -94,8 +98,8 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    color: #ffffff;
-    background-color: #e74c3c;
+    color: #161616;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +107,11 @@
     height: 64px;
     border-radius: 10px;
 }
-.blogs{
+.special_btn {
+    background-color: #f4511e !important;
+    color: #fff !important;
+}
+.blogs ,.matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -161,6 +169,26 @@
     color: rgba(22, 22, 22, 0.7);
 }
 /* Blog Section end*/
+
+/* upcoming match page css */
+.teams{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.match{
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    height: fit-content;
+}
+.match_content{
+    padding: 20px 5px;
+}
 
 /* Footer Section start*/
 .footer{
