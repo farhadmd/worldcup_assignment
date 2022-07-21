@@ -72,7 +72,7 @@
 
 /* Blog Section start*/
 
-.blog_section {
+.blog_section ,.matchs_schedule {
     display: flex;
     gap: 30px;
     padding: 100px 0;
@@ -189,6 +189,7 @@
 .match_content{
     padding: 20px 5px;
 }
+/* upcoming match page css End */
 
 /* Footer Section start*/
 .footer{
@@ -246,7 +247,7 @@
     .banner_content{
         padding: 110px 24px 80px 70px;
     }
-    .blogs{
+    .blogs ,.matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 30px;
@@ -275,12 +276,12 @@
         width: 450px;
         padding: 33px 40px 0 0;
     }
-    .blog_section{
+    .blog_section ,.matchs_schedule {
         flex-direction: column;
         padding: 50px 0;
         gap: 0;
     }
-    .blogs{
+    .blogs ,.matches{
         grid-template-columns: repeat(2, 1fr);
     }
     .blog_menu{
@@ -322,12 +323,12 @@
         width: 500px;
         padding: 40px 40px 0 0;
     }
-    .blog_section{
+    .blog_section ,.matchs_schedule {
         flex-direction: column;
         padding: 50px 0;
         gap: 0;
     }
-    .blogs{
+    .blogs ,.matches {
         grid-template-columns: repeat(2, 1fr);
     }
     .blog_menu{
@@ -383,10 +384,10 @@
         padding: 0;
         margin: 0 auto;
     }
-    .blogs{
+    .blogs ,.matches {
         grid-template-columns: repeat(1, 1fr);
     }
-    .blog_section{
+    .blog_section ,.matchs_schedule {
         flex-direction: column;
         padding: 50px 0;
         gap: 0;
